@@ -1,3 +1,129 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+
+/*basic*/
+
+
+body 
+{
+    background-color: rgba(116, 113, 113, 0.159);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h2
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+/*basic*/
+
+
+
+/*horni menu*/
+.menu 
+    {   
+        text-align: right;
+    }
+
+
+
+.menu li 
+    {
+        display: inline;
+        padding: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+.menu a 
+    {
+        color: rgb(7, 7, 7);
+    }
+
+/*horni menu*/
+
+/*Headlinefoto*/
+.headerfoto{
+        display: block;
+        margin: 25px auto;
+}
+/*Headlinefoto*/
+
+/*O mne*/
+.omne 
+    {
+        background-color: rgba(186, 172, 172, 0.21);
+        padding: 10px;
+        margin-top: 20px;
+
+    }
+/*O mne*/
+
+
+/*fotky v galerii*/
+
+
+.galerie img 
+    {
+    width: 32%;
+    height: 450px;
+        margin: 30px auto;
+    }
+/*fotky v galerii*/
+
+
+/*sekce byznys*/
+.profesionalnipremozitelstvi 
+    {
+        background-color: rgba(83, 77, 77, 0.21);
+        padding: 10px;
+        margin-top: 20px;
+
+    }
+/*sekce byznys*/
+
+
+/*cenik*/
+.cenik
+{
+   box-align: center ;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-bottom: 100px;
+
+}
+h3
+{margin-top: 60px;
+    font-size: 18px;
+text-align: left;}
+/*cenik*/
+
+
+/*recenze*/
+.circular--square { border-radius: 50%; }
+
+.recenze {
+    margin-top: 50px; margin-bottom: 80px;
+    font-size: 15px;
+}
+
+/*recenze*/
+
+/*kontakt*/
+.kontakt 
+{   
+    background-color: rgba(155, 85, 85, 0.686);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 0;
+    margin-bottom: 30;
+   
+}
+/*kontakt*/
